@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    src: url(/assets/fonts/Raleway-Regular.ttf);
+    src: url(/assets/fonts/OpenSans-Bold.ttf)
+}
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+.awesome {
+padding: 15px;
+max-width: calc(1170px+15px*2);
+max-width: 0 auto;
+width: 100%;
+}
+.awesome-title {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #000000;
+padding: 50px 169px 35px 169px;
+}
+hr{
+margin: 0 auto;
+}
+.awesome-subtitle {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #86878B;
+margin: 40px auto 110px;
+}
+
+h4 {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 33px;
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+}
+.awesome-icon-discription {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #000000;
+margin: 38px auto 0px;
+}
+
+.awesome-icons {
+width: 1170px;
+padding: 0 15px;
+margin: 0 auto;
+}
+.awesome-icon {
+    display: inline-block;
+    text-align: center;
+    width: 370px;
+    height: 383px;
+}
